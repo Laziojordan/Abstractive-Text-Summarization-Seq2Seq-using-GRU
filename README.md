@@ -11,15 +11,18 @@ In Keras, the process is done as follow:
     A RNN layer (Here, we will use GRU) acts as "Encoder": it processes the input sequence and returns its own internal state.
     Another RNN layer (GRU) acts as "Decoder": it is trained to predict the next words of the target sequence, given previous words of the target sequence.
 
-Dataset
 
-Amazon Fine Food reviews
+Dataset:
 
-Other Required Files
+Amazon Fine Food reviews.
+
+
+Other Required Files:
 
 attention layer file.
 
 Note: Keras has a built-in Attention class. Unfortunately, it is more suitable for CNNs than RNNs. Therefore, we will use a third-paty attention layer file.
+
 
 References:
 
